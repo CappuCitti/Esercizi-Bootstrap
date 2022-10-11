@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cappu's Bakery</title>
+
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!-- CSS Bootstrap locale-->
+  <link rel="stylesheet" href="./public/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./public/styles/style.css">
+
+  <!-- CSS Bootstrap icone -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Cappu's Bakery</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item ">
+            <a class="nav-link" href="#"><i class="bi bi-bag"></i> <span
+                class="position-relative top-0 end-0 translate-middle badge rounded-pill bg-info">2</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Producs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Cakes</a></li>
+              <li><a class="dropdown-item" href="#">Donuts</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+          </li> -->
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-info" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- CONTENT - ABOUT -->
+  <div class="container-xxl py-6">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <div class="row img-twice position-relative h-100">
+            <div class="col-6">
+              <img class="img-fluid rounded" src="./public/images/donut1.jpg" alt="">
+            </div>
+            <div class="col-6 align-self-end">
+              <img class="img-fluid rounded" src="./public/images/donut2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="h-100">
+            <!-- <p class="text-primary text-uppercase mb-2">// About Us</p> -->
+            <h1 class="display-6 mb-4">We bake your fantasies!</h1>
+            <p>Our pastry chefs are at your disposal for all your requests and crazy fantasies that cross your mind!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus dignissimos odio laboriosam quis, inventore obcaecati, facilis voluptate pariatur id provident labore accusamus quam, culpa dicta debitis! Enim deleniti ea aspernatur.</p>
+            <p> The only limit is your mind!</p>
+            <div class="row g-2 mb-4">
+              <div class="col-sm-6">
+                <i class="bi bi-check text-primary me-2"></i>Quality Products
+              </div>
+              <div class="col-sm-6">
+                <i class="bi bi-check text-primary me-2"></i>Custom Products
+              </div>
+              <div class="col-sm-6">
+                <i class="bi bi-check text-primary me-2"></i>Online Order
+              </div>
+              <div class="col-sm-6">
+                <i class="bi bi-check text-primary me-2"></i>Home Delivery
+              </div>
+            </div>
+            <a class="btn btn-info rounded-pill py-2 px-5" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FOOTER -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© 2022 Cappu, Inc</p>
+
+      <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Producs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
