@@ -6,18 +6,29 @@ Realizzare un piccolo sito per una pasticceria
 
 ## TO DO
 - [x] Nav bar
-- [ ] About us
+- [x] About us
   - [x] Immagini
-- [ ] Contatti
-  - [ ] Come raggiungere la pasticceria
+- [x] Contatti
+  - [x] Come raggiungere la pasticceria
 - [ ] Descrizione
   - [ ] Aggiungere la storia della pasticceria?
 - [x] Footer
   - [ ] Responsive
 - [ ] Aggiungere immagini
   - [ ] Quali?
-- [ ] Aggiungere prodotti
-  - [ ] Costo
-  - [ ] Descrizione
-- [ ] Aggiungere icone dove e' possibile omettere il testo
-  - [ ] Controllo leggibilita' azione (interpletazione icona)
+- [x] Aggiungere prodotti
+  - [x] Costo
+  - [x] Descrizione
+- [x] Aggiungere icone dove e' possibile omettere il testo
+  - [x] Controllo leggibilita' azione (interpletazione icona)
+- [x] Tutto in inglese perche' fa figo
+
+## Da aggiungere
+- [x] Badges
+- [x] Pagination
+- [x] List gruop
+- [x] Card
+- [x] Collapse
+- [x] Nav o NavBar
+- [x] Alert
+- [x] Dropdown menu
