@@ -1,0 +1,27 @@
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.my-6 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.img-twice::before {
+  position: absolute;
+  content: "";
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  left: 20%;
+  background: var(--primary);
+  border: 25px solid var(--light);
+  border-radius: 6px;
+  z-index: -1;
+}
+
+/* FIX */
+.border-2 {
+  border-width: 2px !important;
+}
